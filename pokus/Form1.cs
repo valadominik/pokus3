@@ -43,5 +43,14 @@ namespace pokus
 
             MessageBox.Show(c.ToString());
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            double a = Convert.ToInt32(textBox1.Text);
+            double b = Convert.ToInt32(textBox2.Text);
+            double c = a * b;
+
+            MessageBox.Show(c.ToString());
+        }
     }
 }
