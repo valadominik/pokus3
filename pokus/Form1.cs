@@ -51,6 +51,7 @@ namespace pokus
             double c = a * b;
 
             MessageBox.Show(c.ToString());
+            //ahoj
         }
     }
 }
